@@ -1,0 +1,98 @@
+:root {
+    --color-header: #323232;
+    --color-nav-logo: #f0f0f0;
+    --color-primary-button: #F9933F;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 12vh;
+    background-color: var(--color-header);
+    display: flex;
+    align-items: center;
+    &__content-wrapper {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        &__logo {
+            font-family: 'Lobster', cursive;
+            color: var(--color-nav-logo);
+            font-size: 3em;
+        }
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        &__item__anchor {
+            color: var(--color-nav-logo);
+            font-weight: bold;
+            text-decoration: none;
+            margin: 20px;
+            align-items: center;
+        }
+    }
+}
+
+.section {
+    width: 100%;
+    background-color: var(--color-nav-logo);
+    padding: 50px 0;
+    &__content-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+
+        &__text-area {
+            width: 45%;
+            padding-right: 30px;
+        }
+        
+        &__title {
+        
+            font-weight: bolder;
+            font-size: 2em;
+        }
+        
+        &__paragraph {
+        
+            padding: 30px 0;
+        }
+
+        &__paragraph--small {
+        
+            padding-bottom: 20px;
+        }
+
+        &__text-area__button {
+        
+            background-color: var(--color-primary-button);
+            border: none;
+            color: #fff;
+            font-weight: bolder;
+            font-size: 1.1em;
+            padding: 5px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        &__wrapper-image {
+        
+          width: 55%;
+          height: 250px;
+          &__image {       
+            width: 100%;
+            height: 100%;
+            min-width: 430px;
+          }
+        }
+    }
+}
