@@ -109,4 +109,39 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.main-section {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.main-section__wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-section__wrapper__title {
+  color: #242424;
+  font-size: 1.5em;
+}
+
+.main-section__wrapper__square {
+  width: 30%;
+  height: 250px;
+  background-color: #323232;
+  margin: 25px 0;
+}
+
+.main-section__wrapper__buy {
+  width: 30%;
+}
+
+.main-section__wrapper__buy__title {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.main-section__wrapper__buy__paragraph {
+  font-size: 9;
+}
 /*# sourceMappingURL=style.css.map */
