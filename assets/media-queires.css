@@ -53,5 +53,18 @@
         width: 100%;
     }
 
+    .main-section__content-wrapper {
+        width: 100%;
+    }
+
+    .main-section__content-wrapper__content-list-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
     
 }
