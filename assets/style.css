@@ -90,7 +90,7 @@ body {
   padding-bottom: 20px;
 }
 
-.section__content-wrapper__text-area__button {
+.section__content-wrapper__text-area__responsive--button {
   background-color: var(--color-primary-button);
   border: none;
   color: var(--color-button);
