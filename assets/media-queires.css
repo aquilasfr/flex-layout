@@ -17,11 +17,13 @@
     }
 
     .nav__list__item {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 
     .section {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         padding: 10px 0;
     }
 
