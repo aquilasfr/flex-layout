@@ -17,13 +17,15 @@
     }
 
     .nav__list__item {
-        margin-bottom: 20px;
-        padding: 10px;
+       margin: 20px;
+       padding: 30px;
+       background-color: #F9933F;
+       border-radius: 5px;
+       text-align: center;
     }
 
     .section {
-        width: 80%;
-        margin: 0 auto;
+        width: 100%;
         padding: 10px 0;
     }
 
@@ -51,17 +53,26 @@
         margin-bottom: 20px;
     }
 
+    .section__content-wrapper__text-area__responsive--button {
+        padding: 20px 80px;
+    }
+
     .section__content-wrapper__wrapper-image {
         width: 100%;
     }
 
     .main-section__content-wrapper {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .main-section__content-wrapper__content-list-wrapper {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .main-section__content-wrapper__content-list-wrapper--content--button {
+        padding: 20px 98px;
     }
 
     .footer {
